@@ -1,0 +1,69 @@
+html {
+    background-image: url("bkg/plums\ and\ leaves\ yellow2.jpg");
+}
+
+body {
+    background: wheat;
+    max-width: 1000px;
+    margin: 30px auto;
+    font-family: 'Raleway', sans-serif, 'Arial';
+}
+
+header, footer {
+    background: darkolivegreen;
+    color: whitesmoke;
+}
+
+ul {
+    margin:0;
+    padding: 0;
+}
+
+/* display:inline - shows elements which occupy one line to be on the same line (like li) */
+
+header li {
+    display: inline;
+}
+
+header h1, nav {
+    display: inline-block;
+}
+
+main {
+    width: 680px;
+    display: inline-block;
+}
+aside {
+    width: 270px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h1 {
+    font-size: 50px;
+    align-self: center;
+}
+
+nav {
+    color: wheat;
+}
+
+.products {
+    border: 3px solid olive;
+    width: 200px;
+    margin: 2px;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+    max-width: 100%;
+    /* max width - makes sure the photo doesnt stretch more than the container (which is at products, width) */
+    border-radius: 90px;
+}
+
+.button {
+    padding: 10px;
+    display: inline-block;
+}
